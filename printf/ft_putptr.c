@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putptr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marianamestre <marianamestre@student.42    +#+  +:+       +#+        */
+/*   By: jcameira <jcameira@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 15:26:53 by marianamest       #+#    #+#             */
-/*   Updated: 2024/01/09 16:31:51 by marianamest      ###   ########.fr       */
+/*   Updated: 2024/01/18 14:59:09 by jcameira         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_putptr(unsigned long int n)
 {
 	if (!n)
-		return (ft_putstr("(nill)"));
+		return (ft_putstr("(nil)"));
 	else
 		return (ft_putstr("0x") + ft_puthex(n, 's'));
 }
